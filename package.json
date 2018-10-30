@@ -1,0 +1,26 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "a project to test node\r ## how to use it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint":"eslint ."
+  },
+  "pre-commit":[
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suhesong/anydoor.git"
+  },
+  "author": "xiaosu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suhesong/anydoor/issues"
+  },
+  "homepage": "https://github.com/Suhesong/anydoor#readme",
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  }
+}
