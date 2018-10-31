@@ -4,7 +4,6 @@ module.exports = {
         "commonjs": true,
         "es6": true
     },
-    "parser": "babel-eslint",
     "globals": {
         process: true
       },

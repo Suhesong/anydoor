@@ -1,10 +1,13 @@
 {
-  "name": "anydoor",
+  "name": "anydoor1121",
   "version": "1.0.0",
   "description": "a project to test node\r ## how to use it",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "anydoor": "bin/anydoor"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,10 @@
     "pre-commit": "^1.2.2"
   },
   "dependencies": {
-    "chalk": "^2.4.1"
+    "chalk": "^2.4.1",
+    "ejs": "^2.6.1",
+    "handlebars": "^4.0.12",
+    "pug": "^2.0.3",
+    "yargs": "^12.0.2"
   }
 }
