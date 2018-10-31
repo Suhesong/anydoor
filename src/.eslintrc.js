@@ -1,9 +1,13 @@
 module.exports = {
     "env": {
-        "node": true,
+        "browser": true,
         "commonjs": true,
         "es6": true
     },
+    "parser": "babel-eslint",
+    "globals": {
+        process: true
+      },
     "extends": "eslint:recommended",
     "parserOptions": {
         "ecmaVersion": 2015
@@ -11,7 +15,7 @@ module.exports = {
     "rules": {
         "indent": [
             "error",
-            "tab"
+            4
         ],
         "linebreak-style": [
             "error",
@@ -25,6 +29,6 @@ module.exports = {
             "error",
             "always"
         ],
-        "no-console": 2
+        "no-console": 0
     }
 };
